@@ -1,0 +1,16 @@
+.button{
+    height: 45px;
+    width: 45px;
+    background-color: #61dafb;
+    margin: 10px;
+}
+.calculatorBody{
+    height: 250px;
+    width: 500px;
+    background-color: darkslategray;
+    margin: 45px 0 0 123px;
+}
+.displaySection{
+    height: 105px;
+    width: 145px;
+}
