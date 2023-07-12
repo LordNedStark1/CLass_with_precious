@@ -36,11 +36,10 @@ const Person =() =>{
     function displayForm(){
         if (isFormed) {
             console.log(form)
-            return <div>
-                <p>{firstName}</p>
-                <p>{lastName}</p>
-                <p>{email}</p>
-                <p>{form[0].firstName} voice</p>
+            return <div className={"formDisplay"}>
+                <p> First name: {firstName}</p>
+                <p>Last name: {lastName}</p>
+                <p>Email: {email}</p>
 
             </div>
         }

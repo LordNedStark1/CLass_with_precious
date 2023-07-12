@@ -21,3 +21,9 @@
     margin: 25px 0 0 30px;
     border-radius: 10px;
 }
+.formDisplay{
+    margin: 25px 0 0 190px;
+    height: 125px;
+    font-size: 23px;
+    color: crimson;
+}

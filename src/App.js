@@ -3,8 +3,8 @@ import Person from  "./componet/functionalComponent/EliteFunction"
 function App() {
   return (
     <div className="App">
-        {/*<CalculateApp/>*/}
-        <Person/>
+        <CalculateApp/>
+        {/*<Person/>*/}
     </div>
   );
 }
