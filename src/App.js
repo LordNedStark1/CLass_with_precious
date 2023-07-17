@@ -1,10 +1,9 @@
-import CalculateApp from "./componet/classComponent/CalculateApp";
-import Person from  "./componet/functionalComponent/EliteFunction"
+import OneFunction from "./componet/functionalComponent/OneFunction";
+
 function App() {
   return (
     <div className="App">
-        <CalculateApp/>
-        {/*<Person/>*/}
+      <OneFunction/>
     </div>
   );
 }
