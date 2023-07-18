@@ -5,19 +5,26 @@ const OneFunction = () => {
     const [number, setNumber] = useState("0")
 
     const handleChange =(props)=>{
-        if(props.target.value === "+1")
-            setNumber(parseInt(number) + 1)
+        console.log(props.value);
+        props.target.value === "+1"? setNumber(parseInt(number) + 1):
+        props.target.value === "-1" && number >0 ?  setNumber(number -1):
+        props.target.value === "+5"? setNumber(parseInt(number)+5):
+        props.target.value === "-5" && number - 5 >= 0 ?   setNumber(number -5):  setNumber(number)
+
+
+        // if(props.target.value === "+1")
+        //     setNumber(parseInt(number) + 1)
         
-        if(props.target.value === "-1")
-            if(number >0 )
-                setNumber(number -1)
+        // if(props.target.value === "-1")
+        //     if(number >0 )
+        //         setNumber(number -1)
 
-        if(props.target.value === "+5")
-            setNumber(parseInt(number)+5)
+        // if(props.target.value === "+5")
+        //     setNumber(parseInt(number)+5)
 
-        if(props.target.value === "-5")
-            if(number - 5 >0 )
-                setNumber(number -5)
+        // if(props.target.value === "-5")
+        //     if(number - 5 >0 )
+                // setNumber(number -5)
     } 
 
         return(
